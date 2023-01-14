@@ -1,4 +1,11 @@
 theme: jekyll-theme-cayman
 show_downloads: true
 github:
+  fltk-custom: https://github.com/rageworx/fltk-custom
+  fltk-imgtk: https://github.com/rageworx/fl_imgtk
+  FLFTRender: https://github.com/rageworx/FLFTRender
+  FLTermEx: https://github.com/rageworx/FLTermEx
+  libendetool: https://github.com/rageworx/libendetool
+  Huawei_tool: https://github.com/rageworx/Huawei_Tool
+  gitrepo: https://github.com/rageworx
   description: Raph.K's github IO page.
