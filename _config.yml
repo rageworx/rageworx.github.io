@@ -1,25 +1,32 @@
-# page config
-theme: jekyll-theme-minimal
-title: rageworx github IO page
-name : rageworx's GIO
-description: rageworx's github IO
-search: true
-search_full_content: true
-# author config
-author:
-  name : Raph.K.
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "rageworx"
-  github: "rageworx"
+###########
+# site.title, site.url, site.author.name
 
-# other configs
-show_downloads: true
-github:
-  fltk-custom: https://github.com/rageworx/fltk-custom
-  fltk-imgtk: https://github.com/rageworx/fl_imgtk
-  FLFTRender: https://github.com/rageworx/FLFTRender
-  FLTermEx: https://github.com/rageworx/FLTermEx
-  libendetool: https://github.com/rageworx/libendetool
-  Huawei_tool: https://github.com/rageworx/Huawei_Tool
-  gitrepo: https://github.com/rageworx
-  description: Raph.K's github IO page.
+title:   'Jekyll Minimal Theme'
+author:
+  name:  'Jekyll Minimal Theme Team'
+
+## note: 
+#  use site.path in your templates to make it work for both protocols e.g. http and https
+#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
+path: /jekyll-minimal-theme  
+url:  'http://henrythemes.github.io/jekyll-minimal-theme'
+
+
+########
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+permalink: /:title.html
+
+exclude:
+- README.md
+
+
+safe: true
+lsi: false
+
