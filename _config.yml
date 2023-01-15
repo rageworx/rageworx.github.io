@@ -1,4 +1,18 @@
+# page config
 theme: jekyll-theme-minimal
+title: rageworx github IO page
+name : rageworx's GIO
+description: rageworx's github IO
+search: true
+search_full_content: true
+# author config
+author:
+  name : Raph.K.
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "rageworx"
+  github: "rageworx"
+
+# other configs
 show_downloads: true
 github:
   fltk-custom: https://github.com/rageworx/fltk-custom
